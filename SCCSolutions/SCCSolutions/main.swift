@@ -9,3 +9,4 @@
 import Foundation
 
 Challenge1.test()
+Challenge2.test()

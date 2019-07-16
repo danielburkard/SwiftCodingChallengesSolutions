@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		658F2A9A22DB1F5A00D936F8 /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658F2A9922DB1F5A00D936F8 /* Challenge2.swift */; };
+		65DCCD9122DE1BB10014B325 /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DCCD9022DE1BB10014B325 /* Challenge3.swift */; };
+		65DCCD9922DE1D000014B325 /* Challenge1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DCCD9822DE1D000014B325 /* Challenge1Tests.swift */; };
+		65DCCDCE22DE20D70014B325 /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5B5BB22D9F9EA00012020 /* Challenge1.swift */; };
+		65DCCDD022DE21030014B325 /* Challenge2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DCCDCF22DE21030014B325 /* Challenge2Tests.swift */; };
+		65DCCDD222DE21840014B325 /* Challenge3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DCCDD122DE21840014B325 /* Challenge3Tests.swift */; };
+		65DCCDD322DE21F10014B325 /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658F2A9922DB1F5A00D936F8 /* Challenge2.swift */; };
+		65DCCDD422DE21F40014B325 /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DCCD9022DE1BB10014B325 /* Challenge3.swift */; };
 		65F5B5B322D9F63400012020 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5B5B222D9F63400012020 /* main.swift */; };
-		65F5B5BA22D9F6F800012020 /* Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5B5B922D9F6F800012020 /* Tester.swift */; };
 		65F5B5BC22D9F9EA00012020 /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5B5BB22D9F9EA00012020 /* Challenge1.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,13 +32,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		658F2A9922DB1F5A00D936F8 /* Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2.swift; sourceTree = "<group>"; };
+		65DCCD9022DE1BB10014B325 /* Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3.swift; sourceTree = "<group>"; };
+		65DCCD9622DE1D000014B325 /* SCCSolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCCSolutionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DCCD9822DE1D000014B325 /* Challenge1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1Tests.swift; sourceTree = "<group>"; };
+		65DCCD9A22DE1D000014B325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DCCDCF22DE21030014B325 /* Challenge2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2Tests.swift; sourceTree = "<group>"; };
+		65DCCDD122DE21840014B325 /* Challenge3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3Tests.swift; sourceTree = "<group>"; };
 		65F5B5AF22D9F63400012020 /* SCCSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SCCSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F5B5B222D9F63400012020 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		65F5B5B922D9F6F800012020 /* Tester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tester.swift; sourceTree = "<group>"; };
 		65F5B5BB22D9F9EA00012020 /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65DCCD9322DE1D000014B325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65F5B5AC22D9F63400012020 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +62,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65DCCD9722DE1D000014B325 /* SCCSolutionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				65DCCD9A22DE1D000014B325 /* Info.plist */,
+				65DCCD9822DE1D000014B325 /* Challenge1Tests.swift */,
+				65DCCDCF22DE21030014B325 /* Challenge2Tests.swift */,
+				65DCCDD122DE21840014B325 /* Challenge3Tests.swift */,
+			);
+			path = SCCSolutionsTests;
+			sourceTree = "<group>";
+		};
 		65F5B5A622D9F63400012020 = {
 			isa = PBXGroup;
 			children = (
 				65F5B5B122D9F63400012020 /* SCCSolutions */,
+				65DCCD9722DE1D000014B325 /* SCCSolutionsTests */,
 				65F5B5B022D9F63400012020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				65F5B5AF22D9F63400012020 /* SCCSolutions */,
+				65DCCD9622DE1D000014B325 /* SCCSolutionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,8 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				65F5B5B222D9F63400012020 /* main.swift */,
-				65F5B5B922D9F6F800012020 /* Tester.swift */,
 				65F5B5BB22D9F9EA00012020 /* Challenge1.swift */,
+				658F2A9922DB1F5A00D936F8 /* Challenge2.swift */,
+				65DCCD9022DE1BB10014B325 /* Challenge3.swift */,
 			);
 			path = SCCSolutions;
 			sourceTree = "<group>";
@@ -71,6 +105,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		65DCCD9522DE1D000014B325 /* SCCSolutionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DCCD9B22DE1D000014B325 /* Build configuration list for PBXNativeTarget "SCCSolutionsTests" */;
+			buildPhases = (
+				65DCCD9222DE1D000014B325 /* Sources */,
+				65DCCD9322DE1D000014B325 /* Frameworks */,
+				65DCCD9422DE1D000014B325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCCSolutionsTests;
+			productName = SCCSolutionsTests;
+			productReference = 65DCCD9622DE1D000014B325 /* SCCSolutionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		65F5B5AE22D9F63400012020 /* SCCSolutions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65F5B5B622D9F63400012020 /* Build configuration list for PBXNativeTarget "SCCSolutions" */;
@@ -98,6 +149,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Daniel Burkard";
 				TargetAttributes = {
+					65DCCD9522DE1D000014B325 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					65F5B5AE22D9F63400012020 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -116,17 +170,42 @@
 			projectRoot = "";
 			targets = (
 				65F5B5AE22D9F63400012020 /* SCCSolutions */,
+				65DCCD9522DE1D000014B325 /* SCCSolutionsTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		65DCCD9422DE1D000014B325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		65DCCD9222DE1D000014B325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DCCD9922DE1D000014B325 /* Challenge1Tests.swift in Sources */,
+				65DCCDD322DE21F10014B325 /* Challenge2.swift in Sources */,
+				65DCCDD222DE21840014B325 /* Challenge3Tests.swift in Sources */,
+				65DCCDCE22DE20D70014B325 /* Challenge1.swift in Sources */,
+				65DCCDD022DE21030014B325 /* Challenge2Tests.swift in Sources */,
+				65DCCDD422DE21F40014B325 /* Challenge3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65F5B5AB22D9F63400012020 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658F2A9A22DB1F5A00D936F8 /* Challenge2.swift in Sources */,
 				65F5B5BC22D9F9EA00012020 /* Challenge1.swift in Sources */,
-				65F5B5BA22D9F6F800012020 /* Tester.swift in Sources */,
+				65DCCD9122DE1BB10014B325 /* Challenge3.swift in Sources */,
 				65F5B5B322D9F63400012020 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +213,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		65DCCD9C22DE1D000014B325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T7EWL32H5L;
+				INFOPLIST_FILE = SCCSolutionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.b-linked.SCCSolutionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		65DCCD9D22DE1D000014B325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T7EWL32H5L;
+				INFOPLIST_FILE = SCCSolutionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.b-linked.SCCSolutionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		65F5B5B422D9F63400012020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -272,6 +387,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		65DCCD9B22DE1D000014B325 /* Build configuration list for PBXNativeTarget "SCCSolutionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DCCD9C22DE1D000014B325 /* Debug */,
+				65DCCD9D22DE1D000014B325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		65F5B5AA22D9F63400012020 /* Build configuration list for PBXProject "SCCSolutions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
